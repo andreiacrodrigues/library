@@ -1,0 +1,111 @@
+
+body{
+    background-color: rgb(172, 196, 207); 
+    padding:0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+div#addButton{
+    display: flex;
+    justify-content: center;
+    height:35px;
+    margin:10px;
+}
+
+button#addBooksButton{
+    width: 500px;
+    font-size: 20px;
+}
+
+dialog{
+    background-color: white;
+}
+
+div#send{
+    display: flex;
+    justify-content: space-evenly
+}
+
+#resultCards{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+.card{
+    border-radius: 8px;
+    margin:10px;
+    padding:5px 20px 20px 20px;
+    background-color: rgb(147, 161, 166);
+    color:white;
+    width:150px;
+    height: 180px;
+    border: solid 2px rgba(20, 92, 126, 0.937);
+}
+
+ .spaceTitle, .spaceAuthor, .spacePages, .spaceRead {
+    background-color: rgba(20, 92, 126, 0.937);
+    font-size:18px;
+    font-weight:bold;
+    padding:5px 0px 0px 0px;
+}
+
+.resultTitle, .resultAuthor, .resultPages, .resultRead{
+    background-color: white;
+    color:black;
+    width: 150px;
+    height: 20px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.spaceTitle{
+    border-radius: 2px 2px 0px 0px;
+}
+
+.resultPages{
+    border-radius: 0px 0px 2px 2px;
+}
+
+
+.container-removeButton{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.removeButton{
+    background-color: rgb(8, 8, 8);
+    color:white;
+    width:25px;
+    height: 20px;
+    border-radius: 5px;
+    border:none;
+}
+
+.container-readButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.readButton{
+    width: 100px;
+    margin: 5px;
+    background-color: rgba(195, 234, 234, 0.648);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+

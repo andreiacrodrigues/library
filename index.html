@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <h1>LIBRARY</h1>
+ 
+    <dialog id="infoDialog">
+        <form>
+            <section>
+                <p><label for="ititle">Title</label>
+                    <input type="text" name="title" id="ititle" required>
+                </p>
+                <p><label for="iauthor">Author</label>
+                    <input type="text" name="author" id="iauthor" required>
+                </p>   
+                <p><label for="ipages">Pages</label>
+                    <input type="number" name="pages" id="ipages">
+                </p>    
+            </section>
+            <div id="send">
+                <button id="cancelButton" type="reset">Cancel</button>
+                <button type="submit">Confirm</button>
+            </div>
+        </form>
+    </dialog>
+
+    <div id="addButton">
+        <button id="addBooksButton">Add Book</button>
+    </div>
+    
+    <div id="resultCards"> 
+   
+    </div>
+
+    <script src="books.js"></script>
+</body>
+</html>
